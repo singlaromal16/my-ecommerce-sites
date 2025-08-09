@@ -3,7 +3,7 @@ import { useState } from "react"
 import { Product } from "../product-data";
 import Link from "next/link";
 
-// export const dynamic = 'force-dynamic'; // This will ensure the page is always revalidated on each request 
+export const dynamic = 'force-dynamic'; // This will ensure the page is always revalidated on each request 
 
 export default function ShoppingCartList({initialCardProducts} : {initialCardProducts: Product[]}) {
   const [cardProducts, setCartProducts] = useState(initialCardProducts);
