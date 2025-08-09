@@ -1,6 +1,6 @@
 import NotFoundPage from "@/app/not-found";
 
-export const dynamic = 'force-dynamic'; // This will ensure the page is always revalidated on each request  
+// export const dynamic = 'force-dynamic'; // This will ensure the page is always revalidated on each request  
 
 export default async function ProductDetailsPage(
   { params }: { params: { id: string } }

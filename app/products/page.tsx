@@ -1,7 +1,7 @@
 // import { products } from "../product-data";
 import ProductsList from "../ProductsList";
 
-export const dynamic = 'force-dynamic'; // This will ensure the page is always revalidated on each request  
+// export const dynamic = 'force-dynamic'; // This will ensure the page is always revalidated on each request  
 
 export default async function ProductsPage() {
   
